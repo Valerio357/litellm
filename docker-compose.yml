@@ -24,8 +24,8 @@ services:
     restart: always
     environment:
       POSTGRES_DB: litellm
-      POSTGRES_USER: llmproxy
-      POSTGRES_PASSWORD: dbpassword9090
+      POSTGRES_USER: neondbowner
+      POSTGRES_PASSWORD: ij0Q6SqmpuVc
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -d litellm -U llmproxy"]
       interval: 1s
