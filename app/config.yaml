@@ -1,5 +1,5 @@
 model_list:
-  -  model_name: anthropic-claude
+  -  model_name: "anthropic/*"
      lite_llm_params:
-       model: claude-3-5-sonnet-20240620
-       api_key: "os.environ.ANTHROPIC_API_KEY"
+       model: "anthropic/*"
+       api_key: "os.environ/ANTHROPIC_API_KEY"
